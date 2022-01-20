@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Test extensions",
+  "version": "1",
+  "description": "Test browser Extension",
+  "author": "Test",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage"
+  ],
+  "browser_action": {
+    "default_title": "Test extensions",
+	"default_icon": "src/img/help.png",
+    "default_popup": "src/testEx.html"
+  },
+  "offline_enabled": true,
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "all_frames": false,
+    "run_at": "document_end",
+    "js": [
+		"src/js/testEx.js"
+    ],
+	"css":  [
+		"src/css/popoverTest.css"
+    ]
+  }]
+}

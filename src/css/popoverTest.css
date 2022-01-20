@@ -1,0 +1,182 @@
+.popoverTest {
+  -webkit-box-shadow: 6px 6px 6px -2px #777;
+  -moz-box-shadow: 6px 6px 6px -2px #777;
+  box-shadow: 6px 6px 6px -2px #777;
+  display: block;
+}
+.popoverTest.bottom > .arrow {
+  border-bottom-color: #9dc9f1;
+}
+.popoverTest.left > .arrow {
+  border-left-color: #bbb;
+}
+.popoverTest.left > .arrow:after {
+  border-left-color: #f6f6f6;
+}
+.popoverTest.right > .arrow {
+  border-right-color: #bbb;
+}
+.popoverTest.right > .arrow:after {
+  border-right-color: #f6f6f6;
+}
+.popoverTest.top > .arrow {
+  border-top-color: #bbb;
+}
+.popoverTest.top > .arrow:after {
+  border-top-color: #f6f6f6;
+}
+.popoverTest-content {
+  font-size: 12px;
+  padding: 10px;
+}
+.popoverTest-title {
+  background-color: #7fb9ec;
+  background-image: -webkit-linear-gradient(top, #9dc9f1, #60a8e7);
+  background-image: linear-gradient(to bottom, #9dc9f1, #60a8e7);
+  border-bottom: 0;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  margin: -1px -1px 0;
+  padding: 4px 8px;
+}
+.btnpopoverTest {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: regular;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1;
+  cursor: pointer;
+  background-image: none;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  white-space: nowrap;
+  border: 0;
+  padding: 5px 10px;
+  font-size: 11px;
+  border-radius: 3px;
+}
+.btnpopoverTest:focus,
+.btnpopoverTest:active:focus,
+.btnpopoverTest.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btnpopoverTest:hover,
+.btnpopoverTest:focus {
+  text-decoration: none;
+}
+.btnpopoverTest:active,
+.btnpopoverTest.active,
+.btnpopoverTest:focus {
+  outline: 0;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1) inset;
+}
+.btnpopoverTest.disabled,
+.btnpopoverTest[disabled],
+fieldset[disabled] .btnpopoverTest {
+  cursor: not-allowed;
+  pointer-events: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btnpopoverTest .caret {
+  margin-left: 2px;
+}
+.btnpopoverTest-default {
+  padding: 4px 10px;
+  border: 1px solid #b5c6d2;
+  color: #4e8abe;
+  background-color: #ffffff;
+  background: -webkit-linear-gradient(#ffffff, #dae5ed);
+  background: -moz-linear-gradient(#ffffff, #dae5ed);
+  background: -o-linear-gradient(#ffffff, #dae5ed);
+  background: linear-gradient(#ffffff, #dae5ed);
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+.btnpopoverTest-default:hover {
+  color: #4e8abe;
+  background-color: #f2f9ff;
+  background: -webkit-linear-gradient(#f2f9ff, #c6ddee);
+  background: -moz-linear-gradient(#f2f9ff, #c6ddee);
+  background: -o-linear-gradient(#f2f9ff, #c6ddee);
+  background: linear-gradient(#f2f9ff, #c6ddee);
+  background-repeat: no-repeat;
+}
+.btnpopoverTest-default:active {
+  color: #4e8abe;
+  background-color: #d5e4eb;
+  background: -webkit-linear-gradient(#d5e4eb, #deeaf6);
+  background: -moz-linear-gradient(#d5e4eb, #deeaf6);
+  background: -o-linear-gradient(#d5e4eb, #deeaf6);
+  background: linear-gradient(#d5e4eb, #deeaf6);
+  background-repeat: no-repeat;
+}
+.open > .dropdown-toggle.btnpopoverTest-default {
+  color: #4e8abe;
+  background-color: #d5e4eb;
+  background: -webkit-linear-gradient(#d5e4eb, #deeaf6);
+  background: -moz-linear-gradient(#d5e4eb, #deeaf6);
+  background: -o-linear-gradient(#d5e4eb, #deeaf6);
+  background: linear-gradient(#d5e4eb, #deeaf6);
+  background-repeat: no-repeat;
+}
+.btnpopoverTest-default:visited {
+  color: #4e8abe;
+  text-decoration: none;
+}
+.btnpopoverTest-default.disabled,
+.btnpopoverTest-default[disabled],
+fieldset[disabled] .btnpopoverTest-default,
+.btnpopoverTest-default.disabled:hover,
+.btnpopoverTest-default[disabled]:hover,
+fieldset[disabled] .btnpopoverTest-default:hover,
+.btnpopoverTest-default.disabled:focus,
+.btnpopoverTest-default[disabled]:focus,
+fieldset[disabled] .btnpopoverTest-default:focus,
+.btnpopoverTest-default.disabled:active,
+.btnpopoverTest-default[disabled]:active,
+fieldset[disabled] .btnpopoverTest-default:active,
+.btnpopoverTest-default.disabled.active,
+.btnpopoverTest-default[disabled].active,
+fieldset[disabled] .btnpopoverTest-default.active {
+  background-color: #ffffff;
+  background: -webkit-linear-gradient(#ffffff, #dae5ed);
+  background: -moz-linear-gradient(#ffffff, #dae5ed);
+  background: -o-linear-gradient(#ffffff, #dae5ed);
+  background: linear-gradient(#ffffff, #dae5ed);
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  pointer-events: none;
+}
+.btnpopoverTest-default .badge {
+  color: #dae5ed;
+  background: #4e8abe;
+}
+.btnpopoverTest-default:active,
+.btnpopoverTest-default.active,
+.btnpopoverTest-default:focus {
+  background-color: #d5e4eb;
+  background: -webkit-linear-gradient(#d5e4eb, #deeaf6);
+  background: -moz-linear-gradient(#d5e4eb, #deeaf6);
+  background: -o-linear-gradient(#d5e4eb, #deeaf6);
+  background: linear-gradient(#d5e4eb, #deeaf6);
+  background-repeat: no-repeat;
+  color: #4e8abe;
+}
+.btnpopoverTest-default.dropdown-toggle .caret {
+  color: #4e8abe;
+}
+.btnpopoverTest-default.btnpopoverTest-lg {
+  padding: 6px 10px;
+}
+.btnpopoverTest-default.btnpopoverTest-sm,
+.btnpopoverTest-default.btnpopoverTest-xs {
+  padding: 2px 8px;
+}
